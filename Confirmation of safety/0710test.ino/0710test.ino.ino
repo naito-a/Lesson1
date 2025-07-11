@@ -2,8 +2,8 @@
 #include <WiFiClientSecure.h>
 
 // 接続先のSSIDとパスワード
-const char* ssid = "AP01-02"; //無線ルーターのssidを入力
-const char* password = "1qaz2wsx"; //無線ルーターのパスワードを入力
+const char* ssid = "XXXX"; //無線ルーターのssidを入力
+const char* password = "XXXX"; //無線ルーターのパスワードを入力
 
 const int litsnsrPin = 3; //3:ConnectorA 4:ConnectorB
 const float LUX_THRESHOLD = 100.0; // 100Lux以下で照明点灯判定
